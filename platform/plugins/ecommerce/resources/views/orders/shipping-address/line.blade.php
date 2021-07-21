@@ -1,0 +1,1 @@
+{{ $address->name }} - {{ $address->phone }}<br>{{ $address->address }}, <span class="inline_block"><b>{{ __('City') }}:</b> {{ $address->city }}</span>, <span class="inline_block"><b>{{ __('State') }}:</b> {{ $address->state }}</span>, <span class="inline_block"><b>{{ __('Country') }}:</b> {{ $address->country_name }}</span>
